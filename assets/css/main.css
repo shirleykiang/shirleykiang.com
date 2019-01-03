@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
-/*
-	Landed by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1177,7 +1171,9 @@ input, select, textarea {
 				}
 
 				.row.gtr-uniform > * > :last-child {
-					margin-bottom: 0;
+          margin-bottom: 0;
+          width: 70%;
+          margin: auto;
 				}
 
 				.row.aln-left {
@@ -2149,6 +2145,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+  #four h2, #four p {
+    color: #ffffff;
+  }
+  
 	header p {
 		color: #1c1d26;
 		position: relative;
@@ -3105,7 +3105,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #55b8c4;
+			border-color: #78c8b2;
 		}
 
 		.spotlight.style2 .content {
@@ -3113,7 +3113,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style3 .content {
-			border-color: #78c8b2;
+			border-color: #55b8c4;
 		}
 
 		.spotlight.inactive .content {
@@ -3467,14 +3467,13 @@ input, select, textarea {
 				}
 
 				#banner .content header p {
-					margin: 0.5em 0 0 0;
+					margin: 0.5em 0 1.5em 0;
 					top: 0;
 				}
 
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 18em;
 				margin-left: 3em;
 				vertical-align: middle;
 				width: 18em;

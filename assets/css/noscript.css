@@ -1,11 +1,3 @@
-/*
-	Landed by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
-
-/* Loader */
-
 	body.landing.is-preload:before {
 		display: none;
 	}
