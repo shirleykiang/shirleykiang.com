@@ -107,12 +107,17 @@ input, select, textarea {
 		border-bottom: dotted 1px;
 		color: #55b8c4;
 		text-decoration: none;
-	}
+  }
+  
+    a.email {
+      color: #ffffff;
+    }
 
 		a:hover {
-			color: #55b8c4 !important;
+			color: #a1d8de !important;
 			border-bottom-color: transparent;
-		}
+    }
+    
 
 	strong, b {
 		color:  #1c1d26;
