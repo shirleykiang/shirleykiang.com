@@ -3054,7 +3054,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
 			background: #ffffff;
-			border-style: solid;
+			/* border-style: solid; */
 			opacity: 1;
 			position: absolute;
 		}
