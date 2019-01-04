@@ -34,37 +34,6 @@
 			hideDelay: 350
 		});
 
-	// Nav.
-
-		// Title Bar.
-			$(
-				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
-				'</div>'
-			)
-				.appendTo($body);
-
-		// Panel.
-			$(
-				'<div id="navPanel">' +
-					'<nav>' +
-						$('#nav').navList() +
-					'</nav>' +
-				'</div>'
-			)
-				.appendTo($body)
-				.panel({
-					delay: 500,
-					hideOnClick: true,
-					hideOnSwipe: true,
-					resetScroll: true,
-					resetForms: true,
-					side: 'left',
-					target: $body,
-					visibleClass: 'navPanel-visible'
-				});
-
 	// Parallax.
 	// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).
 		if (browser.name == 'ie'
@@ -96,8 +65,8 @@
 
 								var pos = parseInt($window.scrollTop()) - parseInt($this.position().top);
 
-                // $this.css('background-position', 'center ' + (pos * -0.15) + 'px');
-                $this.css('background-position', 'left ' + (pos * -0.15) + 'px');
+                $this.css('background-position', 'center ' + (pos * -0.15) + 'px');
+                // $this.css('background-position', 'left ' + (0) + 'px');
                 
                 console.log('setting new background position');
 
