@@ -2150,7 +2150,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-  #four h2, #four p {
+  #five h2, #five p {
     color: #ffffff;
   }
   
@@ -3467,13 +3467,15 @@ input, select, textarea {
 				}
 
 				#banner .content header p {
-					margin: 0.5em 0 1.5em 0;
+          margin: 0.5em 0 1.5em 0;
+          /* margin: 0.5em 0 0 0; original */
 					top: 0;
 				}
 
 			#banner .content .image {
-				border-radius: 100%;
-				display: inline-block;
+        border-radius: 50%;
+        display: inline-block;
+        height: 18em;
 				margin-left: 3em;
 				vertical-align: middle;
 				width: 18em;
@@ -3487,7 +3489,7 @@ input, select, textarea {
 
 	body.is-touch #banner {
 		background-attachment: scroll;
-	}
+  }
 
 /* Footer */
 
